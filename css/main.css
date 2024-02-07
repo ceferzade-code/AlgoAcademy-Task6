@@ -18,7 +18,13 @@ section>.div3{
    color: white;
 
 }
-
+section>.div3>a{
+    text-decoration: none;
+    color: white;
+}
+section>.div3>a:hover{
+    color: aqua;
+}
 section>.div3>p{
     color: rgba(255, 255, 255, 0.589);
 }
@@ -29,14 +35,35 @@ section>.div3>h3{
 section>.div3>h4{
     display: inline-block;
     position: absolute;
-    right: 18px;
+    right: 20px;
 }
 section>.div3>p>img{
     width: 16px;
     height: 16px;
+    margin-inline: 8px;
+    border: 1px solid white;
+    border-radius:50%;
+
   
 }
-section>.div3>.div4>img{
+section>.div3>.div4>a>img{
    width: 100%;
    border-radius: 8px;
 }
+section>.div3>.div4>a>img:hover{
+    opacity: 0.3;
+}
+section>.div3>p>a{
+    text-decoration: none;
+    color: white;
+}
+section>.div3>p>a:hover{
+    color: aqua;
+}
+section>.div3>h3>img{
+    margin-inline: 10px;
+}
+section>.div3>h4>img{
+    margin-inline: 8px;
+}
+    
