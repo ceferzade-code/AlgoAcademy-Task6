@@ -1,9 +1,10 @@
-section{
+
+body{
     background-color: rgba(3, 1, 114, 0.815);
-    width: 100%;
-    height: 100vh;
-    padding: 70px;
    
+}
+section{
+    margin-top: 80px;
 }
 section>.div3{
     background-color:rgba(2, 2, 126, 0.226) ;
@@ -15,7 +16,7 @@ section>.div3{
    position: relative;
    padding: 16px;
    color: white;
-   
+
 }
 
 section>.div3>p{
